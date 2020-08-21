@@ -9,8 +9,8 @@ export class HanaScan extends Source {
   get version(): string { return '0.2.2' }
   get name(): string { return 'HanaScan' }
   get description(): string { return 'Extension that pulls manga from HanaScan' }
-  get author(): string { return 'chyyran' }
-  get authorWebsite(): string { return 'http://github.com/chyyran' }
+  get author(): string { return 'MuviKu' }
+  get authorWebsite(): string { return 'http://github.com/muviku' }
   get icon(): string { return "logo.png" }
   get hentaiSource(): boolean { return false }
   getMangaShareUrl(mangaId: string): string | null { return `${HS_DOMAIN}/${mangaId}.html` }
